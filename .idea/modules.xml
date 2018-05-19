@@ -5,8 +5,6 @@
       <module fileurl="file://$PROJECT_DIR$/graphs.iml" filepath="$PROJECT_DIR$/graphs.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/graphs_main.iml" filepath="$PROJECT_DIR$/.idea/modules/graphs_main.iml" group="graphs" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/graphs_test.iml" filepath="$PROJECT_DIR$/.idea/modules/graphs_test.iml" group="graphs" />
-      <module fileurl="file://$PROJECT_DIR$/src/main/main.iml" filepath="$PROJECT_DIR$/src/main/main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/src/test/test.iml" filepath="$PROJECT_DIR$/src/test/test.iml" />
     </modules>
   </component>
 </project>
