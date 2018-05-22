@@ -20,6 +20,18 @@ class GraphTest {
     )
     private var graph = CityGraph(verts, edges)
 
+    @Test
+    fun resultsComparison() {
+        print("BFS Denver to Atalnta: ")
+        println(graph.bfsTraversal("Denver", "Atlanta"))
+        print("DFS Denver to Atalnta: ")
+        println(graph.dfsTraversal("Denver", "Atlanta"))
+        print("BFS Seattle to Minneapolis: ")
+        println(graph.bfsTraversal("Seattle", "Minneapolis"))
+        print("DFS Seattle to Minneapolis: ")
+        println(graph.dfsTraversal("Seattle", "Minneapolis"))
+    }
+
     /*
     Depth First Traversal
      */

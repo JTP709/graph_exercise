@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9be6b070-9148-4c04-afdd-2a41adfe4128" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.5.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.5.1/fileHashes/fileHashes.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.5.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.5.1/fileHashes/fileHashes.lock" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/CityGraph.class" afterPath="$PROJECT_DIR$/out/production/classes/CityGraph.class" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/GraphTest.class" afterPath="$PROJECT_DIR$/out/test/classes/GraphTest.class" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Graph.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/Graph.kt" />
       <change beforePath="$PROJECT_DIR$/src/test/kotlin/GraphTest.kt" afterPath="$PROJECT_DIR$/src/test/kotlin/GraphTest.kt" />
     </list>
@@ -43,21 +42,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Graph.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Graph.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/Graph.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2808">
-              <caret line="117" column="0" lean-forward="true" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
+            <state relative-caret-position="1748">
+              <caret line="76" column="22" lean-forward="true" selection-start-line="76" selection-start-column="22" selection-end-line="76" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GraphTest.kt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GraphTest.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/kotlin/GraphTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3">
-              <caret line="88" column="7" lean-forward="true" selection-start-line="88" selection-start-column="7" selection-end-line="88" selection-end-column="7" />
+            <state relative-caret-position="805">
+              <caret line="35" column="25" lean-forward="true" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
               <folding>
                 <element signature="e#0#158#0" expanded="true" />
               </folding>
@@ -484,7 +483,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -532,8 +530,9 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -569,7 +568,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GraphTest.dfsTraversal">
+  <component name="RunManager" selected="JUnit.GraphTest.resultsComparison">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -610,6 +609,46 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration name="GraphTest.bfsTraversalChicagoToSanDiego" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="graphs_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GraphTest" />
+      <option name="METHOD_NAME" value="bfsTraversalChicagoToSanDiego" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="GraphTest.bfsTraversalChicagoToSeattle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="graphs_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GraphTest" />
+      <option name="METHOD_NAME" value="bfsTraversalChicagoToSeattle" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration name="GraphTest.dfsTraversal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="graphs_test" />
@@ -630,54 +669,14 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="GraphTest.dfsTraversalDenverToAtlanta" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GraphTest.resultsComparison" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="graphs_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="GraphTest" />
-      <option name="METHOD_NAME" value="dfsTraversalDenverToAtlanta" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="GraphTest.dfsTraversalSeattleToMinneapolis" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="graphs_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GraphTest" />
-      <option name="METHOD_NAME" value="dfsTraversalSeattleToMinneapolis" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="GraphTest.dfsTraversalStopIllegalArgumentsException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="graphs_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GraphTest" />
-      <option name="METHOD_NAME" value="dfsTraversalStopIllegalArgumentsException" />
+      <option name="METHOD_NAME" value="resultsComparison" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -751,19 +750,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.GraphTest.dfsTraversalStopIllegalArgumentsException" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.GraphTest.dfsTraversalSeattleToMinneapolis" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.GraphTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.GraphTest.dfsTraversalDenverToAtlanta" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.GraphTest.dfsTraversal" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.GraphTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.GraphTest.dfsTraversal" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.GraphTest.resultsComparison" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.GraphTest.bfsTraversalChicagoToSanDiego" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.GraphTest.bfsTraversalChicagoToSeattle" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.GraphTest.dfsTraversal" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.GraphTest.dfsTraversalDenverToAtlanta" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.GraphTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.GraphTest.dfsTraversalSeattleToMinneapolis" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.GraphTest.dfsTraversalStopIllegalArgumentsException" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.GraphTest.resultsComparison" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.GraphTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.GraphTest.bfsTraversalChicagoToSeattle" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.GraphTest.bfsTraversalChicagoToSanDiego" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.GraphTest.dfsTraversal" />
       </list>
     </recent_temporary>
   </component>
@@ -783,44 +782,46 @@
       <workItem from="1526651281838" duration="340000" />
       <workItem from="1526651765239" duration="1393000" />
       <workItem from="1526654337125" duration="17308000" />
-      <workItem from="1526759062614" duration="4242000" />
+      <workItem from="1526759062614" duration="7489000" />
+      <workItem from="1526934887974" duration="715000" />
+      <workItem from="1526995693070" duration="841000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GraphTest - 2018.05.19 at 16h 46m 14s.xml">
+    <history-entry file="GraphTest - 2018.05.22 at 09h 31m 02s.xml">
       <configuration name="GraphTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GraphTest_dfsTraversal - 2018.05.19 at 17h 05m 49s.xml">
-      <configuration name="GraphTest.dfsTraversal" configurationId="JUnit" />
+    <history-entry file="GraphTest - 2018.05.22 at 09h 35m 44s.xml">
+      <configuration name="GraphTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GraphTest_dfsTraversalDenverToAtlanta - 2018.05.19 at 16h 48m 28s.xml">
-      <configuration name="GraphTest.dfsTraversalDenverToAtlanta" configurationId="JUnit" />
+    <history-entry file="GraphTest_bfsTraversalChicagoToSanDiego - 2018.05.22 at 09h 32m 08s.xml">
+      <configuration name="GraphTest.bfsTraversalChicagoToSanDiego" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GraphTest_dfsTraversalSeattleToMinneapolis - 2018.05.19 at 16h 26m 13s.xml">
-      <configuration name="GraphTest.dfsTraversalSeattleToMinneapolis" configurationId="JUnit" />
+    <history-entry file="GraphTest_bfsTraversalChicagoToSanDiego - 2018.05.22 at 09h 34m 22s.xml">
+      <configuration name="GraphTest.bfsTraversalChicagoToSanDiego" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GraphTest_dfsTraversalSeattleToMinneapolis - 2018.05.19 at 16h 30m 07s.xml">
-      <configuration name="GraphTest.dfsTraversalSeattleToMinneapolis" configurationId="JUnit" />
+    <history-entry file="GraphTest_bfsTraversalChicagoToSanDiego - 2018.05.22 at 09h 35m 31s.xml">
+      <configuration name="GraphTest.bfsTraversalChicagoToSanDiego" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GraphTest_dfsTraversalSeattleToMinneapolis - 2018.05.19 at 16h 30m 55s.xml">
-      <configuration name="GraphTest.dfsTraversalSeattleToMinneapolis" configurationId="JUnit" />
+    <history-entry file="GraphTest_bfsTraversalChicagoToSeattle - 2018.05.22 at 09h 35m 36s.xml">
+      <configuration name="GraphTest.bfsTraversalChicagoToSeattle" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GraphTest_dfsTraversalSeattleToMinneapolis - 2018.05.19 at 16h 34m 56s.xml">
-      <configuration name="GraphTest.dfsTraversalSeattleToMinneapolis" configurationId="JUnit" />
+    <history-entry file="GraphTest_resultsComparison - 2018.05.21 at 16h 41m 48s.xml">
+      <configuration name="GraphTest.resultsComparison" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GraphTest_dfsTraversalSeattleToMinneapolis - 2018.05.19 at 16h 43m 44s.xml">
-      <configuration name="GraphTest.dfsTraversalSeattleToMinneapolis" configurationId="JUnit" />
+    <history-entry file="GraphTest_resultsComparison - 2018.05.22 at 09h 38m 49s.xml">
+      <configuration name="GraphTest.resultsComparison" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GraphTest_dfsTraversalSeattleToMinneapolis - 2018.05.19 at 16h 45m 47s.xml">
-      <configuration name="GraphTest.dfsTraversalSeattleToMinneapolis" configurationId="JUnit" />
+    <history-entry file="GraphTest_resultsComparison - 2018.05.22 at 09h 39m 16s.xml">
+      <configuration name="GraphTest.resultsComparison" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GraphTest_dfsTraversalSeattleToMinneapolis - 2018.05.19 at 16h 45m 56s.xml">
-      <configuration name="GraphTest.dfsTraversalSeattleToMinneapolis" configurationId="JUnit" />
+    <history-entry file="GraphTest_resultsComparison - 2018.05.22 at 09h 41m 35s.xml">
+      <configuration name="GraphTest.resultsComparison" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23283000" />
+    <option name="totallyTimeSpent" value="28086000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -868,11 +869,63 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="22" />
+      <option name="time" value="24" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/Graph.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/GraphTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="27" column="22" lean-forward="true" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#158#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/Graph.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/GraphTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2346">
+          <caret line="106" column="5" lean-forward="true" selection-start-line="106" selection-start-column="5" selection-end-line="106" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#158#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/Graph.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1817">
@@ -977,15 +1030,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="283">
           <caret line="332" column="0" lean-forward="false" selection-start-line="332" selection-start-column="0" selection-end-line="332" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/rules/ExpectedException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="240" column="0" lean-forward="false" selection-start-line="240" selection-start-column="0" selection-end-line="240" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -997,21 +1041,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/kotlin/GraphTest.kt">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/runners/model/FrameworkMethod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3">
-          <caret line="88" column="7" lean-forward="true" selection-start-line="88" selection-start-column="7" selection-end-line="88" selection-end-column="7" />
+        <state relative-caret-position="191">
+          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding>
-            <element signature="e#0#158#0" expanded="true" />
+            <element signature="e#1464#1658#0" expanded="false" />
+            <element signature="e#1657#1658#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/statements/InvokeMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/rules/ExpectedException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="238" column="0" lean-forward="false" selection-start-line="238" selection-start-column="0" selection-end-line="238" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/rules/RunRules.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/Graph.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2808">
-          <caret line="117" column="0" lean-forward="true" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
+        <state relative-caret-position="1748">
+          <caret line="76" column="22" lean-forward="true" selection-start-line="76" selection-start-column="22" selection-end-line="76" selection-end-column="22" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/GraphTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="805">
+          <caret line="35" column="25" lean-forward="true" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#158#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
